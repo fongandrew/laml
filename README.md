@@ -4,4 +4,12 @@ Legal Agreement Markup Language (LAML) is an extension of XML designed for legal
 
 Please see the [Guide](https://github.com/fongandrew/laml/blob/master/README.md) for more details on how to construct a LAML document.
 
-
+TODO
+----
+- [ ] Finish guide and initial set of examples
+- [ ] XML schema for LAML documents
+- [ ] Script to do additional validation
+- [ ] Script to compile to HTML
+- [ ] Script to compile to DOCX
+- [ ] Populate additional examples
+- [ ] WYSIWYG editor
