@@ -1,0 +1,73 @@
+<doc namespace="https://docbrownenterprises.com" id="sales-123">
+  <name>Time Machine Sales Agreement</name>
+  <body>
+    <section id="intro"><text>
+      This <def>Time Machine Sales Agreement (the <name>Agreement</name>)</def>
+      between
+      <def>Doc Brown Enterprises, Inc. (the <name>Company</name>)</def>
+      and
+      <def>McFly Sports Trading Corp. (the <name>Purchaser</name>)</def>
+      is made as of <date format="YYYY-MM-DD">2015-10-21</data>
+    </text></section>
+    
+    <section>
+      <name>Sale</name>
+      <text>
+        The <ref to="Company" /> hereby agrees to sell
+        <def>one Flux Capacitor (the <name>Goods</name>)</def> to the
+        <ref to="Purchaser" />. Title shall pass to the <ref to="Purchaser" />
+        at such time as full payment is received by the <ref to="Company" />
+        pursuant to <ref to="Payment" />.
+      </text>
+    </section>
+    
+    <section>
+      <name>Price</name>
+      <text>
+        The <ref to="Purchaser" /> agrees to purchase the
+        <ref to="Goods" /> for the agreed upon price of
+        <def>
+          <number id="price" unit="numbers">12,100,000,000</number>
+          dollars (the <name>Price</name>)
+        </def>,
+        and shall also pay any applicable sales or transfer taxes.
+      </text>
+    </section>
+    
+    <section>
+      <name>Payment</name>
+      <text>
+        Full payment of the <ref to="Price" /> shall be made in full upon
+        signing of this <ref to="Agreement" />.
+      </text>
+    </section>
+    
+    <include module="boilerplate">
+      <def>The <name>Governing Law State</name> shall be California.</def>
+    </include>
+  </body>
+  
+  <!-- Information about who should sign this document -->
+  <signatories>
+    <signatory>
+      <name><ref to="Company" /></name>
+      <signatory>
+        <!-- Nested signatory tags indicate that one signatory is signing on
+        behalf of another signatory. In this case, Doctor Emmett Brown is
+        signing for the Company. -->
+        <name>Doctor Emmett Brown</name>
+        <!-- The role tag describes in what capacity Doctor Emett Brown is
+        signing. -->
+        <role>Chief Executive Officer</role>
+      </signatory>
+    </signatory>
+    
+    <signatory>
+      <name><ref to="Purchaser" /></name>
+      <signatory>
+        <name>Marty McFly</name>
+        <role>President</role>
+      </signatory>
+    </signatory>
+  </signatories>
+</doc>
